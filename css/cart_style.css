@@ -1,0 +1,135 @@
+body {
+  background-color: #e6e6e6;
+}
+.h1{
+  width: 20%;
+}
+.titles {
+  position: fixed;
+  display: flex;
+  flex-flow: row;
+  margin-top: 10px;
+  margin-left: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: 'roboto', medium, sans-serif;
+  float: left;
+  font-size: 30px;
+  color: black;
+  width: 100%;
+  display: flex;
+  z-index: -1;
+  /* or inline-flex */
+}
+.page {
+  position: fixed;
+  width: 100%;
+  z-index: -2;
+  /* or inline-flex */
+}
+.slider {
+  flex-wrap: wrap;
+  width: 100%;
+  height: 900px;
+  z-index: 1;
+  /* or inline-flex */
+}
+
+
+
+.hasselblad {
+  scroll-snap-align: start;
+  margin-top:  0px;
+  float: left;
+  margin-left: 6%;
+  width: 84%;
+}
+
+
+.hasselbladbackground {
+  margin-top: 0px;
+  float: left;
+  margin-left: 6%;
+  width: 83%;
+}
+/* .abgrenzung {
+  background-color: black;
+  width: 2%;
+} */
+
+.buttons {
+  position: absolute;
+  position: fixed;
+  top: 10px;
+  right: 0px;
+  /* or inline-flex */
+  background: #e6e6e6;
+  font-family: 'roboto', medium, sans-serif;
+  float: right;
+  font-size: 15px;
+  color: black;
+  width: 20%;
+  height: 1000px;
+}
+
+
+.h1{
+  font-family: 'roboto', medium, sans-serif;
+  font-size: 15px;
+  color: black;
+
+}
+.h4{
+  font-family: 'roboto', black, sans-serif;
+  float: left;
+  font-size: 50px;
+  text-align: center;
+
+}
+.objektive {
+  display: flex;
+  flex-flow: row;
+  align-content: center;
+  flex: 50%;
+}
+.stative {
+  display: flex;
+  flex-flow: row;
+}
+.knopfgrosse {
+  display: table-cell;
+  width: 150px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 00);
+
+  vertical-align: middle;
+  text-align: center;
+}
+.titeloption {
+
+    text-align: center;
+    font-family: 'roboto', medium, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+.button{
+
+}
+.arrow {
+  width: 20px;
+  height: 50px;
+}
+
+.abgrenzung {
+  margin-top: 20px;
+  overflow: scroll;
+}
+.js-replace-content {
+}
+
+.div1 {
+  font-family: 'roboto', medium, sans-serif;
+  font-size: 15px;
+  color: black;
+width: 40px;
+
+}
